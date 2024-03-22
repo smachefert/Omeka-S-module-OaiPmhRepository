@@ -88,6 +88,7 @@ return [
                 OaiPmh\Metadata\OaiDc::class => Service\OaiPmh\Metadata\MetadataFormatFactory::class,
                 OaiPmh\Metadata\OaiDcterms::class => Service\OaiPmh\Metadata\MetadataFormatFactory::class,
                 OaiPmh\Metadata\SimpleXml::class => Service\OaiPmh\Metadata\MetadataFormatFactory::class,
+                OaiPmh\Metadata\OaiDctermsNavigae::class  => Service\OaiPmh\Metadata\MetadataFormatFactory::class,
             ],
             'aliases' => [
                 'cdwalite' => OaiPmh\Metadata\CdwaLite::class,
@@ -95,6 +96,7 @@ return [
                 'mods' => OaiPmh\Metadata\Mods::class,
                 'oai_dc' => OaiPmh\Metadata\OaiDc::class,
                 'oai_dcterms' => OaiPmh\Metadata\OaiDcterms::class,
+                'oai_dcterms_navigae' => OaiPmh\Metadata\OaiDctermsNavigae::class,
                 'simple_xml' => OaiPmh\Metadata\SimpleXml::class,
             ],
         ],
